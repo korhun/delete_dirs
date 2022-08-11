@@ -86,8 +86,9 @@ def run_delete_dirs(delete_dir_names):
 
 if __name__ == '__main__':
     # print("This is the name of the program:", sys.argv[0])
-    args = str(sys.argv[1:])
+    args = sys.argv[1:]
     # args = ['aaa', 'bbb', 'asdfasfd afsdfasdf', "bin"]
+    # args = ["node_module", ".angular"}
     print("Argument List:", args)
     run_delete_dirs(args)
     # input("Press Enter to continue...")
