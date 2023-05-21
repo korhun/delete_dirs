@@ -1,2 +1,2 @@
-delete_dirs.exe "bin", "obj"
+delete_dirs.exe "bin" "obj"
 pause
